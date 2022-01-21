@@ -1,6 +1,6 @@
 import React from 'react'
 import { useQuery } from '@apollo/client'
-import { PhotoCardComponent } from '../PhotoCard/index'
+import { PhotoCardComponent } from '../PhotoCard/PhotoCardComponent'
 import { withPhotos } from '../../hoc/withPhotos'
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PhotoCardComponent } from '../Components/PhotoCard/index'
+import { PhotoCardComponent } from '../components/PhotoCard/PhotoCardComponent'
 import { useGetSinglePhoto } from '../Hooks/useGetPhoto'
 
 export const PhotoCardWithQuery = ({ id }) => {
