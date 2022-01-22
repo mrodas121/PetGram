@@ -20,7 +20,7 @@ export const ListOfCategories = (fixed) => {
     const renderList = (fixed) => (
         <List fixed = {fixed}>
             {
-                categories.map(category=> <Item key={category.id}><Category Category= {category}/></Item>)
+                categories.map(category=> <Item key={category.id}><Category Category= {category} path={`/pet/${category.id}`} /></Item>)
             }
         </List>
     )

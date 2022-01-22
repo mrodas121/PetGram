@@ -1,9 +1,9 @@
 import React from 'react'
-import { Anchor, Image } from './styles'
+import { Link, Image } from './styles'
 
-export const Category = ({ Category }) => (
-  <Anchor href={Category.path}>
+export const Category = ({ Category, path }) => (
+  <Link to={path}>
     <Image src={Category.cover} />
     {Category.emoji}
-  </Anchor>
+  </Link>
 )
