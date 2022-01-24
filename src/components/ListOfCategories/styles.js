@@ -19,7 +19,7 @@ export const List = styled.ul`
         right: 0;
         top: -20px;
         transform: scale(.5);
-        z-index = 1;
+        z-index : 1;
     }`}
 `
 
